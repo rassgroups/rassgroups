@@ -203,8 +203,8 @@
             <li class="sheprate">
                 <a href="mailto:support@rassgroups.com" class="mail-icon"><i class="fa-regular fa-envelope"></i></a>support@rassgroups.com
             </li>
-            <div class="estimate"><i class="fa-solid fa-paper-plane"></i> Request an Estimate
-            </div>
+            <a href='https:/wa.me/+91 85778 69038' class="estimate"><i class="fa-solid fa-paper-plane"></i> Request an Estimate
+            </a>
             <i class="fa-solid fa-xmark" id="close" onclick="closeMenu()"></i>
         </nav>
     </header>
@@ -364,7 +364,7 @@
             <p>Our diverse portfolio and partnerships provide a unique selection of solutions such as digital
                 transformation platforms, cloud and infrastructure transformation, AI/ML-based chatbots, data analytics,
                 tech skill assessment platforms, and more. </p><br><br>
-                <div class="btn-ctnr"><a href="#MSME" class="doc-btn">MSME certificate</a>
+                <div class="btn-ctnr"><a onclick='docdisp()' class="doc-btn">MSME certificate</a>
 <!--                 <a href="#MSME" class="doc-btn">MSME certificate</a> -->
                 </div>
         </div>
@@ -1003,7 +1003,7 @@
                     <li>No Hidden Charges</li>
                 </ul>
                 <div class="btnCtr">
-                    <div class="sm-btn">GET QUOTE NOW</div>
+                    <a href='https:/wa.me/+91 85778 69038' class="sm-btn">GET QUOTE NOW</a>
                 </div>
             </div>
 
@@ -1032,7 +1032,7 @@
                     <li>No Hidden Charges</li>
                 </ul>
                 <div class="btnCtr">
-                    <div class="sm-btn">GET QUOTE NOW</div>
+                    <a href='https:/wa.me/+91 85778 69038' class="sm-btn">GET QUOTE NOW</a>
                 </div>
             </div>
 
@@ -1061,7 +1061,7 @@
                     <li>No Hidden Charges</li>
                 </ul>
                 <div class="btnCtr">
-                    <div class="sm-btn">GET QUOTE NOW</div>
+                    <a href='https:/wa.me/+91 85778 69038' class="sm-btn">GET QUOTE NOW</a>
                 </div>
             </div>
         </div>
@@ -1092,7 +1092,7 @@
                     <li>No Hidden Charges</li>
                 </ul>
                 <div class="btnCtr">
-                    <div class="sm-btn">GET QUOTE NOW</div>
+                    <a href='https:/wa.me/+91 85778 69038' class="sm-btn">GET QUOTE NOW</a>
                 </div>
             </div>
 
@@ -1122,7 +1122,7 @@
                     <li>No Hidden Charges</li>
                 </ul>
                 <div class="btnCtr">
-                    <div class="sm-btn">GET QUOTE NOW</div>
+                    <a href='https:/wa.me/+91 85778 69038' class="sm-btn">GET QUOTE NOW</a>
                 </div>
             </div>
 
@@ -1153,7 +1153,7 @@
                     <li>No Hidden Charges</li>
                 </ul>
                 <div class="btnCtr">
-                    <div class="sm-btn">GET QUOTE NOW</div>
+                    <a href='https:/wa.me/+91 85778 69038' class="sm-btn">GET QUOTE NOW</a>
                 </div>
             </div>
         </div>
@@ -1186,7 +1186,7 @@
             <p>Mobile is in our nerves. We don’t just build apps, we create brand.<br>
                 Choosing us will be your best decision.</p>
 
-            <div class="footerBtn">Get A Quote <img src="./images/icons/arrow-right-white.svg" alt=""></div>
+            <a href='https:/wa.me/+91 85778 69038' style='color:white; text-decoration:none;' class="footerBtn">Get A Quote <img src="./images/icons/arrow-right-white.svg" alt=""></a>
         </div>
         <div class="footer">
             <footer>
@@ -1264,6 +1264,9 @@
                         transform="translate(-26.558 -26.159)" fill="#fff"></path>
                 </svg></a>
         </div>
+    </div>
+    <div class="fullDoc" onclick="dochide()">
+        <img src="./images/msme.jpg" alt="photo">
     </div>
 
 
@@ -1366,6 +1369,14 @@
 
         // Call the scrollScrollerTo170px function every 3 seconds (3000 milliseconds)
         setInterval(scrollScroller, 2000);
+
+        function docdisp(){
+            document.querySelector('.fullDoc').style.display='flex'
+        }
+
+        function dochide(){
+            document.querySelector('.fullDoc').style.display='none'
+        }
 
 
     </script>
